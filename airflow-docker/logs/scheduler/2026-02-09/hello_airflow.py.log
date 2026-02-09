@@ -3309,3 +3309,17 @@
 [2026-02-09T14:48:50.673+0000] {logging_mixin.py:188} INFO - [2026-02-09T14:48:50.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-02-09T14:48:50.698+0000] {logging_mixin.py:188} INFO - [2026-02-09T14:48:50.698+0000] {dag.py:3823} INFO - Setting next_dagrun for hello_airflow_docker to None, run_after=None
 [2026-02-09T14:48:50.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello_airflow.py took 0.317 seconds
+[2026-02-09T14:49:21.036+0000] {processor.py:161} INFO - Started process (PID=36946) to work on /opt/airflow/dags/hello_airflow.py
+[2026-02-09T14:49:21.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello_airflow.py for tasks to queue
+[2026-02-09T14:49:21.042+0000] {logging_mixin.py:188} INFO - [2026-02-09T14:49:21.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/hello_airflow.py
+[2026-02-09T14:49:21.110+0000] {processor.py:840} INFO - DAG(s) 'hello_airflow_docker' retrieved from /opt/airflow/dags/hello_airflow.py
+[2026-02-09T14:49:21.206+0000] {logging_mixin.py:188} INFO - [2026-02-09T14:49:21.205+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-09T14:49:21.224+0000] {logging_mixin.py:188} INFO - [2026-02-09T14:49:21.224+0000] {dag.py:3823} INFO - Setting next_dagrun for hello_airflow_docker to None, run_after=None
+[2026-02-09T14:49:21.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello_airflow.py took 0.236 seconds
+[2026-02-09T14:49:51.429+0000] {processor.py:161} INFO - Started process (PID=37002) to work on /opt/airflow/dags/hello_airflow.py
+[2026-02-09T14:49:51.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello_airflow.py for tasks to queue
+[2026-02-09T14:49:51.437+0000] {logging_mixin.py:188} INFO - [2026-02-09T14:49:51.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/hello_airflow.py
+[2026-02-09T14:49:51.514+0000] {processor.py:840} INFO - DAG(s) 'hello_airflow_docker' retrieved from /opt/airflow/dags/hello_airflow.py
+[2026-02-09T14:49:51.579+0000] {logging_mixin.py:188} INFO - [2026-02-09T14:49:51.578+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-09T14:49:51.633+0000] {logging_mixin.py:188} INFO - [2026-02-09T14:49:51.633+0000] {dag.py:3823} INFO - Setting next_dagrun for hello_airflow_docker to None, run_after=None
+[2026-02-09T14:49:51.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello_airflow.py took 0.311 seconds
